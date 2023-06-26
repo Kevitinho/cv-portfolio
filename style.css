@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(rgb(88, 7, 226),rgb(2, 3, 3));
+    height: 100%;
+}
+body { 
+    background-color: rgb(9, 3, 3) ;
+}
+.text  {
+   padding: 25%;
+
+}
+.text h3{
+    display: flex;
+    justify-content: center;
+}
+.text p{
+    display: flex;
+    justify-content: center;
+}
+
+.experiencias{
+    padding: 3%;
+    height: 50%;
+    margin-top: 15%;
+    padding-bottom: 1%;
+
+}
+.experiencias ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4px;
+    padding-top: 15%;
+
+}
+.experiencias h2  {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 7px;
+}
+.experiencias ul li{
+    display: flex;
+    justify-content: center;
+}
+.experiencias ul li{
+    background-image: url("imagens/image.html.png"),("imagens/imagem.css.png");    
+}
+
+.experiencias ul li {
+    background-image: url("imagens/imgem.js.png"),("imagens/imagem.react.png");   
+}
+.experiencias ul li {
+    background-image: url("imagens/imagem.figma.png"),;      
+}
+.projetos {
+    background-image: linear-gradient(rgba(2, 9, 17, 0.825),rgba(22, 52, 223, 0.495));
+    padding: 18px;
+    padding-top: 15%;
+
+}
+.projetos p{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    padding-bottom: 5%;
+    
+}
+.projetos h2  {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: blueviolet;
+    padding-bottom: 7%;
+}
+.projetos ul{
+    display: flex;
+    justify-content:space-between;
+    padding-right: 15%;
+}
+.projetos ul li{
+    background-image: url("imagens/imagem\,netflix.png"),url("imagens/imagem.ricky.png")
+    url("imagens/imagem.pointer.png"),url("imagens/imagem.figma.png");
+    padding: 3%;
+    border-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: inset;
+    transition: 1s;
+}
+.projetos img{
+    display:flex;
+}
+footer{
+    display: flex;
+    justify-content: right;
+    padding: 15%;
+}
+.ctt{
+    display: flex;
+    justify-content: right;
+    padding: 10%;
+}
