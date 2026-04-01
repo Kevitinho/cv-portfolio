@@ -136,40 +136,48 @@ body {
     border-color: #23a6d5;
 }
 footer{
-    padding: 3%;
+    padding: 10%;
 }
 
-footer h2{
+footer ul{
     display: flex;
-    justify-content:center ;
-    color: aliceblue;
-    padding-bottom: 5%;
+    justify-content: space-evenly;
+
 }
-.ctt{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 8px;
+footer h2{
+    color: rgb(255, 255, 255);
+    padding-bottom: 5%;
+    text-align: center;
+}
+footer img {
+  transition: 0.3s;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+  box-shadow:
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 30px #ff00ff,
+    0 0 40px #ff00ff;
 }
 .insta{
-    padding: 12%;
+    padding: 12px;
     border: solid;
-    border-color: #23a6d5;
-    cursor: pointer;
-    transition-property: initial;
-    transition-delay: 2s;
+    border-color: #9423d5;
 }
 .whats{
-    padding: 11%;
+    padding: 12px;
     border: solid;
     border-color: #23d5ab;
 }
 .git{
-    padding: 10%;
+    padding: 12px;
     border: solid;
-    border-color: #3c3fff;
+    border-color: #ebecff;
 }
 .fb{
-    padding: 11%;
+    padding: 12px;
     border: solid;
-    border-color: #890aea;
+    border-color: #1551f8;
 }
